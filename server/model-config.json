@@ -42,5 +42,13 @@
   "evaluacion": {
     "dataSource": "db_mysql",
     "public": true
+  },
+  "comida": {
+    "dataSource": "db_mysql",
+    "public": true
+  },
+  "actividad": {
+    "dataSource": "db_mysql",
+    "public": true
   }
 }

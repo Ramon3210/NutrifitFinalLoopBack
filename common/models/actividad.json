@@ -1,0 +1,35 @@
+{
+  "name": "actividad",
+  "plural": "actividades",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "enElTrabajo": {
+      "type": "string",
+      "required": true
+    },
+    "trayectoTrabajo": {
+      "type": "string",
+      "required": true
+    },
+    "finSemana": {
+      "type": "string",
+      "required": true
+    },
+    "enCasa": {
+      "type": "string",
+      "required": true
+    },
+    "otraActividad": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
